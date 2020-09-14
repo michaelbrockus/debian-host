@@ -30,8 +30,11 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        git \
        cppcheck \
        mono-complete \
-       ruby-full \
-       rake
+       ruby-full
+
+RUN gem install \
+        bundled \
+        rake
 
 RUN pip3 -q install --upgrade pip \
     && python3 -m pip -q install \
