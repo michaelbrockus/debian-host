@@ -26,7 +26,7 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        rustc \
        libncurses-dev \
        default-jdk \
-       default-jar \
+       default-jre \
        git \
        cppcheck \
        mono-complete \
