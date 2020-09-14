@@ -33,7 +33,7 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        ruby-full
 
 RUN gem install \
-        bundled \
+        bundler \
         rake
 
 RUN pip3 -q install --upgrade pip \
