@@ -30,7 +30,8 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        git \
        cppcheck \
        mono-complete \
-       ruby-full
+       ruby-full \
+    && rm -rf /var/lib/apt/lists/*
 
 RUN gem install \
         bundler \
