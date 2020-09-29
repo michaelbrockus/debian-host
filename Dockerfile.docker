@@ -24,7 +24,6 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        gfortran \
        gdc \
        rustc \
-       libncurses-dev \
        default-jdk \
        default-jre \
        git \
@@ -32,6 +31,7 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        cppcheck \
        mono-complete \
        ruby-full \
+       gnustep-devel \
     && rm -rf /var/lib/apt/lists/*
 
 RUN gem install \
