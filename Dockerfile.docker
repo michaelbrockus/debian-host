@@ -17,10 +17,8 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        python3-pip \
        python3-wheel \
        python3-setuptools \
-       gcc \
-       g++ \
-       gobjc \
-       gobjc++ \
+       gcc-10 \
+       g++-10 \
        gfortran \
        gdc \
        rustc \
