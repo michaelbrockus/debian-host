@@ -8,8 +8,6 @@ ENV DEBIAN_FRONTEND noninteractive
 ENV LANG 'C.UTF-8'
 ENV CI 1
 
-ADD run_tests.py .
-
 RUN apt-get update --fix-missing && apt-get upgrade -y \
     && apt-get -y install \
        apt-utils \
