@@ -17,7 +17,6 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        python3-setuptools \
        gcc-10 \
        g++-10 \
-       gfortran \
        gdc \
        rustc \
        default-jdk \
@@ -25,7 +24,6 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        git \
        ccache \
        cppcheck \
-       mono-complete \
        libssl-dev \
     && rm -rf /var/lib/apt/lists/*
 
