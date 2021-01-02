@@ -1,15 +1,3 @@
 sut:
   build: .
-  dockerfile: Dockerfile.c-language
-
-  build: .
-  dockerfile: Dockerfile.cpp-language
-
-  build: .
-  dockerfile: Dockerfile.d-language
-
-  build: .
-  dockerfile: Dockerfile.rust-language
-
-  build: .
-  dockerfile: Dockerfile.python-language
+  dockerfile: Dockerfile
