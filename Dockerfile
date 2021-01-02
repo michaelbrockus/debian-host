@@ -15,6 +15,7 @@ RUN apt-get update --fix-missing && apt-get upgrade -y \
        python3-pip \
        python3-wheel \
        python3-setuptools \
+       pkg-config \
        gcc-10 \
        g++-10 \
        gdc \
