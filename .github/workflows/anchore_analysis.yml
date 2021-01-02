@@ -87,7 +87,7 @@ jobs:
       with:
         sarif_file: results.sarif
 
- scan-c:
+ scan-python:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout the code
